@@ -27,7 +27,7 @@
 
 ###
 
-<h4 align="left">📚 Learning: Brazilian Portuguese, RISC-V, Linux Kernel, Rust and C <br>🎯 Goals: Systems programming (Rust & RISC-V)<br>🤝 Open to: Job/Internship opportunities<br>👯 Looking for: Collaboration on low-level systems or security tools<br>🎲 Fun fact: After doing too many unpaid bug-bounties, I still try hacking websites and applications just for the fun of it.</h4>
+<h4 align="left">📚 Learning: Brazilian Portuguese, RISC-V, Linux Kernel, Rust and C <br>🎯 Goals: Systems programming (Rust & RISC-V)<br>🤝 Open to: Job/Internship opportunities<br>👯 Looking for: Collaboration on low-level systems or security tools<br>🎲 Fun fact: After doing too many unpaid bug-bounties, I only try hacking websites and applications for the fun of it. 💀</h4>
 
 ###
 
