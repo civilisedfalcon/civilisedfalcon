@@ -23,7 +23,7 @@
 
 ###
 
-<h4 align="left">I’m a Security & DevOps Engineer. I just settled in Brazil 🇧🇷 after spending 2025 traveling through South America and Europe while I’m still young and dumb.<br><br>Back in South Korea, I was a “Jack of all trades”—handling everything from managing GPU clusters and getting ISO 27001 certified to building CI/CD pipelines for government projects. I recently gave a Master’s degree a shot, but realized the academic route didn’t fit my ambitions, so I quit to focus on what I actually love: practical engineering.</h4>
+<h4 align="left">I’m a Security & DevOps Engineer. I just settled in Brazil 🇧🇷 after spending 2025 traveling through South America and Europe while I’m still young and dumb.<br><br>Back in South Korea, I was a “Jack of all trades”; handling everything from managing GPU clusters and getting ISO 27001 certified to building CI/CD pipelines for government projects. I recently gave a Master’s degree a shot, but realized the academic route didn’t fit my ambitions, so I quit to focus on what I actually love: practical engineering.</h4>
 
 ###
 
