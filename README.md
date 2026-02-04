@@ -46,7 +46,19 @@ Back in South Korea, I was a “Jack of all trades”; handling everything from 
 | ` ./tools` | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" height="30" alt="grafana" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" height="30" alt="prometheus" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="30" alt="apache" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hugo/hugo-original.svg" height="30" alt="hugo" /> |
 
 <br />
+<br />
+
+## <code><span style="color:#d79921">root@civilisedfalcon:~$</span> ./system_diagnostics.sh</code>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/civilisedfalcon/civilisedfalcon/main/github-metrics.svg" alt="Metrics" width="80%" />
+  <table border="0">
+    <tr>
+      <td width="50%" valign="top">
+        <img src="https://raw.githubusercontent.com/civilisedfalcon/civilisedfalcon/main/metrics.left.svg" alt="Activity Metrics" />
+      </td>
+      <td width="50%" valign="top">
+        <img src="https://raw.githubusercontent.com/civilisedfalcon/civilisedfalcon/main/metrics.right.svg" alt="Tech & Achievements" />
+      </td>
+    </tr>
+  </table>
 </div>
