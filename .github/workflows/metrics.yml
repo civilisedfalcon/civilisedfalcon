@@ -30,23 +30,23 @@ jobs:
           config_timezone: America/Sao_Paulo
           config_order: languages, stargazers, lines
           
-          # 1. Tech Stack
+          # 1. Tech Stack (Lowered threshold so more langs show up)
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
+          plugin_languages_threshold: 0% 
           
-          # 2. Stargazers Chart (New! Guaranteed to change the look)
+          # 2. Stargazers (Switched to graph for better visibility)
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
-          plugin_stargazers_charts_type: classic
+          plugin_stargazers_charts_type: graph
           
-          # 3. Lines of Code (Fixed!)
+          # 3. Lines of Code (Explicitly scanning repositories)
           plugin_lines: yes
-          # Changed from 'base' (which is hidden) to 'repositories' (which has data)
           plugin_lines_sections: repositories
           plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
+          plugin_lines_repositories_limit: 2
           
           # Disable crashing plugins
           plugin_activity: no
