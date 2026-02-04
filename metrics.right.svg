@@ -33,11 +33,11 @@
         </div>
       </div>
 
-<pre><div class="stdin"><span class="ps1-path">civilisedfalcon@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>JUPYTER NOTEBOOK</b> [####################] 97.13%
+<pre><div class="stdin"><span class="ps1-path">civilisedfalcon@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>JUPYTER NOTEBOOK</b> [####################] 97.12%
 <b>HTML        </b> [#                   ] 2.04 %
 <b>PYTHON      </b> [#                   ] 0.28 %
 <b>C++         </b> [#                   ] 0.21 %
-<b>RUST        </b> [#                   ] 0.13 %
+<b>RUST        </b> [#                   ] 0.14 %
 <b>SHELL       </b> [#                   ] 0.08 %
 <b>C           </b> [#                   ] 0.07 %
 <b>PERL        </b> [#                   ] 0.06 %
