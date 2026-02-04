@@ -20,7 +20,7 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: America/Sao_Paulo
 
-      - name: Habits & Tech (Right)
+      - name: Tech & Live Feed (Right)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.right.svg
@@ -28,17 +28,28 @@ jobs:
           template: terminal
           base: "" 
           config_timezone: America/Sao_Paulo
-          config_order: languages, habits, lines
+          config_order: languages, activity, lines
+          
+          # 1. Tech Stack (Languages)
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
           plugin_languages_recent_days: 365
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 30
-          plugin_habits_from: 200
+          
+          # 2. Activity Feed (Replaces the crashing Habits plugin)
+          # Shows a cool log of your actual recent commits/PRs
+          plugin_activity: yes
+          plugin_activity_limit: 6
+          plugin_activity_days: 0
+          plugin_activity_filter: all
+          
+          # 3. Code Volume History
           plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          
+          # Disabled to prevent crashes
+          plugin_habits: no
           plugin_achievements: no
