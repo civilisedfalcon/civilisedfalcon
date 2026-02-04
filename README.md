@@ -48,10 +48,5 @@ Back in South Korea, I was a “Jack of all trades”; handling everything from 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=civilisedfalcon&radius=0&theme=gruvbox&area=true&order=5&hide_border=true&custom_title=Arijit's%20Contribution" height="300" alt="activity-graph graph" />
-  <br />
-
-  <img src="https://streak-stats.demolab.com?user=civilisedfalcon&locale=en&mode=daily&theme=gruvbox&hide_border=true&border_radius=0&order=3" height="150" alt="streak graph" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=civilisedfalcon&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=false&disable_animations=false&theme=gruvbox&locale=en&hide_border=true&order=1" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=civilisedfalcon&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox&hide_border=true&order=2" height="150" alt="languages graph" />
+  <img src="https://raw.githubusercontent.com/civilisedfalcon/civilisedfalcon/main/github-metrics.svg" alt="Metrics" width="100%" />
 </div>
