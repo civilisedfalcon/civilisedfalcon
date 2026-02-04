@@ -1,52 +1,49 @@
 name: Simple Stats
 on:
-  schedule: [{cron: "0 * * * *"}] # Runs every hour
+  schedule: [{cron: "0 * * * *"}] # Run every hour
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 
 jobs:
-  update-cards:
+  generate-analytics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       # ----------------------------------------------------------------
-      # 1. GENERATE STREAK CARD
+      # 1. STREAK CARD (Official DenverCoder1 Action)
       # ----------------------------------------------------------------
-      - uses: lowlighter/metrics@latest
+      - name: Generate Streak
+        uses: DenverCoder1/github-readme-streak-stats@v2
         with:
-          filename: streak.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_streak: yes
-          config_timezone: America/Sao_Paulo
-          config_theme: gruvbox
+          github_user: civilisedfalcon
+          output_path: streak.svg
+          mode: daily
+          theme: gruvbox
+          hide_border: true
+          border_radius: 0
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
 
       # ----------------------------------------------------------------
-      # 2. GENERATE STATS CARD
+      # 2. STATS & LANGUAGES (Profile Summary Cards Action)
       # ----------------------------------------------------------------
-      - uses: lowlighter/metrics@latest
+      - name: Generate Stats & Langs
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
-          filename: stats.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories
-          config_timezone: America/Sao_Paulo
-          config_theme: gruvbox
+          USERNAME: civilisedfalcon
+          # This generates a whole folder of cards in your repo
+          # You can pick the ones you want to display
 
       # ----------------------------------------------------------------
-      # 3. GENERATE LANGUAGES CARD
+      # 3. PUSH CHANGES
       # ----------------------------------------------------------------
-      - uses: lowlighter/metrics@latest
+      # Note: The vn7n24fzkq action commits automatically, 
+      # but we add this just in case for the Streak card.
+      - name: Push Streak Image
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          filename: langs.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_limit: 6
-          plugin_languages_colors: github
-          config_timezone: America/Sao_Paulo
-          config_theme: gruvbox
+          commit_message: "Update streak stats"
+          file_pattern: "streak.svg"
