@@ -54,10 +54,10 @@ Back in South Korea, I was a “Jack of all trades”; handling everything from 
   <table border="0">
     <tr>
       <td width="50%" valign="top">
-        <img src="https://raw.githubusercontent.com/civilisedfalcon/civilisedfalcon/main/metrics.left.svg" alt="Activity Metrics" />
+        <img src="metrics.left.svg" alt="Activity Metrics" />
       </td>
       <td width="50%" valign="top">
-        <img src="https://raw.githubusercontent.com/civilisedfalcon/civilisedfalcon/main/metrics.right.svg" alt="Tech & Achievements" />
+        <img src="metrics.right.svg" alt="Tech & Achievements" />
       </td>
     </tr>
   </table>
