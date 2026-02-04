@@ -48,5 +48,5 @@ Back in South Korea, I was a “Jack of all trades”; handling everything from 
 <br />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/civilisedfalcon/civilisedfalcon/main/github-metrics.svg" alt="Metrics" width="100%" />
+  <img src="https://raw.githubusercontent.com/civilisedfalcon/civilisedfalcon/main/github-metrics.svg" alt="Metrics" width="80%" />
 </div>
