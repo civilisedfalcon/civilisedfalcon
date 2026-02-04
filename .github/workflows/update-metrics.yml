@@ -1,10 +1,8 @@
 name: Metrics
 on:
-  # 1. Update Every Hour (Catch contributions from ALL repos)
+  # Updates every hour to catch your latest private work
   schedule: [{cron: "0 * * * *"}]
-  # 2. Allow manual run
   workflow_dispatch:
-  # 3. Update when you change your Profile README itself
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -13,9 +11,9 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # We use @master to ensure 'streak' and 'gruvbox' are supported
+      - uses: lowlighter/metrics@master
         with:
-          # Your GitHub Token
           token: ${{ secrets.METRICS_TOKEN }}
 
           # --- CONFIGURATION ---
@@ -25,21 +23,20 @@ jobs:
           config_theme: gruvbox
           
           # --- PRIVATE DATA ACCESS ---
-          # Essential for counting private commits
+          # This is the magic line that makes it count private repos
           committer_token: ${{ secrets.METRICS_TOKEN }}
 
-          # --- 1. GENERAL STATS (Matches your "Stats" image) ---
-          # Header: Rank & Total Commits
-          # Activity: PRs, Issues
-          # Community: Followers, Stars
+          # --- 1. REPLACES 'STATS GRAPH' ---
+          # Header = Total Commits & Rank
+          # Activity = PRs, Issues
+          # Community = Stars, Followers
           base: header, activity, community, repositories
           
-          # --- 2. STREAK STATS (Matches your "Streak" image) ---
+          # --- 2. REPLACES 'STREAK GRAPH' ---
           plugin_streak: yes
           
-          # --- 3. TOP LANGUAGES (Matches your "Languages" image) ---
+          # --- 3. REPLACES 'LANGUAGES GRAPH' ---
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_limit: 5
-          # "github" colors match your example best
           plugin_languages_colors: github
