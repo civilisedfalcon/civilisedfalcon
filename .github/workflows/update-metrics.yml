@@ -1,7 +1,10 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 3 * * *"}]
+  # 1. Update Every Hour (Catch contributions from ALL repos)
+  schedule: [{cron: "0 * * * *"}]
+  # 2. Allow manual run
   workflow_dispatch:
+  # 3. Update when you change your Profile README itself
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -10,32 +13,33 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 🛡️ SECURITY: Use the SHA hash you saved!
       - uses: lowlighter/metrics@latest
         with:
+          # Your GitHub Token
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # --- USER CONFIG ---
+          # --- CONFIGURATION ---
           user: civilisedfalcon
           template: classic
           config_timezone: America/Sao_Paulo
           config_theme: gruvbox
           
-          # --- PRIVATE STATS ENABLED ---
+          # --- PRIVATE DATA ACCESS ---
+          # Essential for counting private commits
           committer_token: ${{ secrets.METRICS_TOKEN }}
 
-          # 1. THE STATS GRAPH (Commits, PRs, Issues, Stars)
+          # --- 1. GENERAL STATS (Matches your "Stats" image) ---
+          # Header: Rank & Total Commits
+          # Activity: PRs, Issues
+          # Community: Followers, Stars
           base: header, activity, community, repositories
           
-          # 2. THE LANGUAGES GRAPH
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_limit: 6
-          
-          # 3. THE STREAK GRAPH
+          # --- 2. STREAK STATS (Matches your "Streak" image) ---
           plugin_streak: yes
           
-          # 4. THE CONTRIBUTION GRAPH (New!)
-          # This adds the 3D calendar view at the bottom
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # --- 3. TOP LANGUAGES (Matches your "Languages" image) ---
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 5
+          # "github" colors match your example best
+          plugin_languages_colors: github
