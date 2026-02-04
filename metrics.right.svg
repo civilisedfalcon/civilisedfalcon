@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="182" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="253" class="">
   
 
   <defs><style>@font-face {
@@ -33,10 +33,14 @@
         </div>
       </div>
 
-<pre><div class="stdin"><span class="ps1-path">civilisedfalcon@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>JUPYTER NOTEBOOK</b> [####################] 99.59%
-<b>PYTHON      </b> [#                   ] 0.32 %
-<b>SHELL       </b> [#                   ] 0.05 %
-<b>C++         </b> [#                   ] 0.03 %
+<pre><div class="stdin"><span class="ps1-path">civilisedfalcon@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>JUPYTER NOTEBOOK</b> [####################] 99.12%
+<b>PYTHON      </b> [#                   ] 0.29 %
+<b>C++         </b> [#                   ] 0.21 %
+<b>RUST        </b> [#                   ] 0.13 %
+<b>SHELL       </b> [#                   ] 0.08 %
+<b>C           </b> [#                   ] 0.07 %
+<b>PERL        </b> [#                   ] 0.06 %
+<b>JAVASCRIPT  </b> [#                   ] 0.03 %
 </div>
 
 </pre>
