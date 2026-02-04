@@ -20,7 +20,7 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: America/Sao_Paulo
 
-      - name: Tech & Live Feed (Right)
+      - name: System Stats (Right)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.right.svg
@@ -28,28 +28,25 @@ jobs:
           template: terminal
           base: "" 
           config_timezone: America/Sao_Paulo
-          config_order: languages, activity, lines
+          config_order: languages, lines, traffic
           
-          # 1. Tech Stack (Languages)
+          # 1. Tech Stack (Stable - Repo based)
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
-          plugin_languages_recent_days: 365
           
-          # 2. Activity Feed (Replaces the crashing Habits plugin)
-          # Shows a cool log of your actual recent commits/PRs
-          plugin_activity: yes
-          plugin_activity_limit: 6
-          plugin_activity_days: 0
-          plugin_activity_filter: all
-          
-          # 3. Code Volume History
+          # 2. Code Volume (Stable - Git history based)
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           
-          # Disabled to prevent crashes
+          # 3. Traffic / System Load (Stable - Analytics based)
+          # Shows Views and Clones - very cool for a DevOps profile
+          plugin_traffic: yes
+          
+          # DISABLE ALL Event-scanning plugins (The cause of your crashes)
+          plugin_activity: no
           plugin_habits: no
           plugin_achievements: no
