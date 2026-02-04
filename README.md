@@ -1,117 +1,57 @@
 <div align="center">
-  <img height="200" src="https://media1.tenor.com/m/sDOwuUenzIIAAAAd/cowboy-bibop.gif" style="border-radius: 0px;" />
-</div>
+  <img height="200" src="https://media1.tenor.com/m/sDOwuUenzIIAAAAd/cowboy-bibop.gif" />
+  <br />
 
-###
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=98971A&background=28282800&center=true&vCenter=true&width=500&lines=%3E+USER:+civilisedfalcon" alt="Typing SVG" />
+  </a>
+</div>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/civilisedfalcon/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=282828&logoColor=0077B5&labelColor=3c3836&style=for-the-badge" height="25" alt="linkedin logo" />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=282828&logoColor=458588&labelColor=1d2021&style=for-the-badge" height="30" alt="linkedin logo" />
   </a>
   <a href="mailto:your-email-here@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=282828&logoColor=D14836&labelColor=3c3836&style=for-the-badge" height="25" alt="gmail logo" />
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=282828&logoColor=cc241d&labelColor=1d2021&style=for-the-badge" height="30" alt="gmail logo" />
   </a>
+  <br />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=civilisedfalcon.civilisedfalcon&left_color=1d2021&right_color=282828&left_text=VISITORS" />
 </div>
 
-###
+<br />
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=civilisedfalcon.civilisedfalcon&left_color=282828&right_color=3c3836" />
-</div>
+## <code><span style="color:#d79921">root@civilisedfalcon:~$</span> cat ./About_Me.txt</code>
 
-###
+I am/was a **Security & DevOps Engineer**. I just settled in Brazil 🇧🇷 after spending 2025 traveling through South America and Europe while I’m still young and dumb.
 
-<h1 align="left">About Me:</h1>
+Back in South Korea, I was a “Jack of all trades”; handling everything from managing GPU clusters and getting ISO 27001 certified to building CI/CD pipelines for government projects. I recently gave a Master’s degree a shot, but realized the academic route didn’t fit my ambitions, so I quit to focus on what I actually love: practical engineering.
 
-###
+> <code>></code> **Learning:** Brazilian Portuguese, RISC-V, Linux Kernel, Rust and C <br>
+> <code>></code> **Goals:** Systems programming (Rust & RISC-V) <br>
+> <code>></code> **Open to:** Job/Internship opportunities <br>
+> <code>></code> **Looking for:** Collaboration on low-level systems or security tools <br>
+> <code>></code> **Fun fact:** After doing too many unpaid bug-bounties, I only try hacking websites and applications for the fun of it. 💀
 
-<h4 align="left">I am/was a Security & DevOps Engineer. I just settled in Brazil 🇧🇷 after spending 2025 traveling through South America and Europe while I’m still young and dumb.<br><br>Back in South Korea, I was a “Jack of all trades”; handling everything from managing GPU clusters and getting ISO 27001 certified to building CI/CD pipelines for government projects. I recently gave a Master’s degree a shot, but realized the academic route didn’t fit my ambitions, so I quit to focus on what I actually love: practical engineering.</h4>
+<br />
 
-###
+## <code><span style="color:#d79921">root@civilisedfalcon:~$</span> ./show_stack.sh</code>
 
-<h4 align="left">📚 Learning: Brazilian Portuguese, RISC-V, Linux Kernel, Rust and C <br>🎯 Goals: Systems programming (Rust & RISC-V)<br>🤝 Open to: Job/Internship opportunities<br>👯 Looking for: Collaboration on low-level systems or security tools<br>🎲 Fun fact: After doing too many unpaid bug-bounties, I only try hacking websites and applications for the fun of it. 💀</h4>
+| Module | Tech Stack &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+| :--- | :--- |
+| ` ./languages` | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cpp" /> <img src="https://skillicons.dev/icons?i=rust" height="30" alt="rust" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python" /> <img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="30" alt="bash" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="30" alt="arduino" /> |
+| ` ./systems` | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="30" alt="debian" /> <img src="https://cdn.simpleicons.org/ubuntu/E95420" height="30" alt="ubuntu" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fedora/fedora-original.svg" height="30" alt="fedora" /> |
+| ` ./cloud` | <img src="https://skillicons.dev/icons?i=aws,gcp,openstack" height="30" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="30" alt="terraform" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" height="30" alt="vagrant" /> <img src="https://cdn.simpleicons.org/ansible/EE0000" height="30" alt="ansible" /> |
+| ` ./containers` | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/podman/podman-original.svg" height="30" alt="podman" /> <img src="https://cdn.simpleicons.org/kubernetes/326CE5" height="30" alt="kubernetes" /> <img src="https://skillicons.dev/icons?i=jenkins,githubactions,gitlab" height="30" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git" /> |
+| ` ./data_ai` | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgres" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="30" alt="redis" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="30" alt="sqlite" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="30" alt="anaconda" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="30" alt="pytorch" /> |
+| ` ./tools` | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" height="30" alt="grafana" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" height="30" alt="prometheus" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="30" alt="apache" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hugo/hugo-original.svg" height="30" alt="hugo" /> |
 
-###
-
-<h2 align="left">My tech stack:</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/podman/podman-original.svg" height="40" alt="podman logo" />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/kubernetes/326CE5" height="40" alt="kubernetes logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/ansible/EE0000" height="40" alt="ansible logo" />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="40" alt="bash logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="40" alt="debian logo" />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/ubuntu/E95420" height="40" alt="ubuntu logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fedora/fedora-original.svg" height="40" alt="fedora logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" height="40" alt="grafana logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" height="40" alt="prometheus logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="40" alt="apache logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=rust" height="40" alt="rust logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hugo/hugo-original.svg" height="40" alt="hugo logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="40" alt="redis logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=jenkins" height="40" alt="jenkins logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=githubactions" height="40" alt="githubactions logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gitlab" height="40" alt="gitlab logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="40" alt="terraform logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" height="40" alt="vagrant logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=openstack" height="40" alt="openstack logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gcp" height="40" alt="googlecloud logo" />
-</div>
+<br />
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=civilisedfalcon&radius=0&theme=gruvbox&area=true&order=5&hide_border=true&custom_title=Arijit's%20Contribution" height="300" alt="activity-graph graph" />
   <br />
-  
+
   <img src="https://streak-stats.demolab.com?user=civilisedfalcon&locale=en&mode=daily&theme=gruvbox&hide_border=true&border_radius=0&order=3" height="150" alt="streak graph" />
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=civilisedfalcon&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=false&disable_animations=false&theme=gruvbox&locale=en&hide_border=true&order=1" height="150" alt="stats graph" />
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=civilisedfalcon&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox&hide_border=true&order=2" height="150" alt="languages graph" />
 </div>
-
-###
