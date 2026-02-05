@@ -11,32 +11,28 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: System Stats (Right)
+      - name: Contribution Graph (Right)
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.right.svg
+          # New filename to break cache
+          filename: metrics.graph.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.METRICS_TOKEN }}
-          template: terminal
+          
+          # Classic is REQUIRED for graphs.
+          template: classic
+          
+          # Base "" removes the header/user info.
           base: "" 
-          config_timezone: America/Sao_Paulo
-          # ORDER: Languages -> Lines -> Calendar
-          config_order: languages, lines, calendar
           
-          # 1. Tech Stack
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_sections: most-used
-          plugin_languages_limit: 8
-
+          # This forces ONLY the Lines graph to render.
+          config_order: lines
           
-          # 2. Lines of Code
+          # Lines Plugin Configuration
           plugin_lines: yes
-          plugin_lines_sections: repositories
+          # 'history' generates the big line chart of your code volume over time
+          plugin_lines_sections: history
+          # 1 year of history (matches the contribution graph style)
           plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-
-          # 3. Standard Calendar (The flat squares)
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
-          
+          # Set delay to 0 to speed it up
+          plugin_lines_delay: 0
