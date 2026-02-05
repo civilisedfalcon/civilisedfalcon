@@ -18,6 +18,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.METRICS_TOKEN }}
           template: terminal
-          base: header, activity, community, repositories
+          base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
+
+          # Extra terminal features
+          plugin_gists: yes
+          plugin_traffic: yes
           
