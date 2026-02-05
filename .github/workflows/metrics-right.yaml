@@ -37,7 +37,7 @@ jobs:
           
           # 2. Habits (Recent Activity Charts)
           plugin_habits: yes
-          plugin_habits_from: 200       # Scan last 200 events
+          plugin_habits_from: 100       # Scan last 100 events
           plugin_habits_days: 14        # Limit to recent 2 weeks (Recent activity)
           plugin_habits_facts: no       # DISABLE text facts (Prevents the crash!)
           plugin_habits_charts: yes     # Show the Day/Night & Week graphics
