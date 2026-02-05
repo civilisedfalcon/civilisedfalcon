@@ -11,28 +11,33 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Contribution Graph (Right)
+      - name: System Graphs (Right)
         uses: lowlighter/metrics@latest
         with:
-          # New filename to break cache
-          filename: metrics.right.svg
+          # New filename to force immediate update
+          filename: metrics.dashboard.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.METRICS_TOKEN }}
           
-          # Classic is REQUIRED for graphs.
+          # Classic is required for these charts
           template: classic
           
-          # Base "" removes the header/user info.
-          base: "" 
+          # Hide header/user info (No overlap with Left)
+          base: ""
+          config_timezone: America/Sao_Paulo
           
-          # This forces ONLY the Lines graph to render.
-          config_order: lines
+          # ORDER: Habits (Circles) -> Calendar (Squares)
+          config_order: habits, calendar
           
-          # Lines Plugin Configuration
-          plugin_lines: yes
-          # 'history' generates the big line chart of your code volume over time
-          plugin_lines_sections: history
-          # 1 year of history (matches the contribution graph style)
-          plugin_lines_history_limit: 1
-          # Set delay to 0 to speed it up
-          plugin_lines_delay: 0
+          # 1. Habits (Visual Radial Charts)
+          # Shows "Day vs Night" and "Days of Week" activity
+          plugin_habits: yes
+          plugin_habits_from: 200       # Analyze last 200 events
+          plugin_habits_days: 30        # ...over last 30 days
+          plugin_habits_facts: no       # Hide text, show only charts
+          plugin_habits_charts: yes     # Enable the graphical charts
+          plugin_habits_trim: yes       # Trim unused data
+          
+          # 2. Calendar (The Classic Heatmap)
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
