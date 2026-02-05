@@ -1,0 +1,23 @@
+name: GitHub Metrics left
+
+on:
+  schedule: [{cron: "0 */12 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Identity & Activity (Left)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.left.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          template: terminal
+          base: header, activity, community, repositories
+          config_timezone: America/Sao_Paulo
+          
