@@ -30,8 +30,8 @@ jobs:
           template: terminal
           base: "" 
           config_timezone: America/Sao_Paulo
-          # NEW ORDER: Languages -> Lines (The data you want) -> Stars
-          config_order: languages, lines, stars
+          # ORDER: Languages -> Lines -> Calendar
+          config_order: languages, lines, calendar
           
           # 1. Tech Stack
           plugin_languages: yes
@@ -39,18 +39,20 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
           
-          # 2. Lines of Code (Moved UP so it renders first)
+          # 2. Lines of Code
           plugin_lines: yes
           plugin_lines_sections: repositories
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           
-          # 3. Stars
-          plugin_stars: yes
-          plugin_stars_limit: 3
+          # 3. Standard Calendar (The flat squares)
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
           
-          # REMOVED the crashing 'repositories' plugin
+          # CLEANUP: Disable unstable/unwanted plugins
           plugin_repositories: no
+          plugin_isocalendar: no
           plugin_activity: no
           plugin_habits: no
           plugin_achievements: no
+          plugin_stars: no
