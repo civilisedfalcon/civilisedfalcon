@@ -15,7 +15,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           # New filename to break cache
-          filename: metrics.graph.svg
+          filename: right.metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.METRICS_TOKEN }}
           
