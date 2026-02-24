@@ -1,4 +1,4 @@
-name: GitHub Metrics left
+name: GitHub Metrics
 
 on:
   schedule: [{cron: "0 */12 * * *"}]
@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Identity & Activity (Left)
+      - name: Identity, Activity, & Repositories (Left)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.left.svg
@@ -20,12 +20,20 @@ jobs:
           template: terminal
           base: activity, community, repositories
           config_timezone: America/Sao_Paulo
+          plugin_gists: yes
+          plugin_traffic: yes
 
-          # Extra terminal features
+      - name: Languages / Locale (Right)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.right.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          template: terminal
+          base: "" 
+          config_timezone: America/Sao_Paulo
           plugin_languages: yes
+          plugin_languages_ignored: jupyter notebook, html
           plugin_languages_details: bytes-size, percentage
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
-          plugin_gists: yes
-          plugin_traffic: yes
-          
