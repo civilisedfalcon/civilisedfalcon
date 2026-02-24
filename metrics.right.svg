@@ -33,14 +33,14 @@
         </div>
       </div>
 
-<pre><div class="stdin"><span class="ps1-path">civilisedfalcon@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>RUST        </b> [#######             ] 32.05%
-<b>PYTHON      </b> [######              ] 25.34%
-<b>C++         </b> [####                ] 18.62%
-<b>SHELL       </b> [##                  ] 7.33 %
-<b>C           </b> [##                  ] 5.95 %
-<b>PERL        </b> [##                  ] 5.28 %
-<b>CSS         </b> [#                   ] 2.79 %
-<b>JAVASCRIPT  </b> [#                   ] 2.65 %
+<pre><div class="stdin"><span class="ps1-path">civilisedfalcon@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>RUST        </b> [#######             ] 32.68%
+<b>PYTHON      </b> [######              ] 25.84%
+<b>C++         </b> [####                ] 18.98%
+<b>SHELL       </b> [##                  ] 7.47 %
+<b>C           </b> [##                  ] 6.07 %
+<b>PERL        </b> [##                  ] 5.38 %
+<b>JAVASCRIPT  </b> [#                   ] 2.70 %
+<b>MAKEFILE    </b> [#                   ] 0.88 %
 </div>
 
 </pre>
